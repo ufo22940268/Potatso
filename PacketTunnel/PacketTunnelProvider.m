@@ -96,6 +96,8 @@
             p = p->next;
         }
         NSString *result = [records jsonString];
+        NSLog(@"---------------------%@", result);
+        printf("--------------");
         [weakSelf.wormhole passMessageObject:result identifier:@"tunnelConnectionRecords"];
     }];
     [self setupStatusSocket];

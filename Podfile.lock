@@ -90,7 +90,7 @@ DEPENDENCIES:
   - YAML-Framework (from `./Library/YAML-Framework`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Appirater
     - AsyncSwift
@@ -156,4 +156,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 773204542ef8ad11dc8205a2dc85e91ab2b3cb1b
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
